@@ -1,0 +1,40 @@
+{
+  "name": "reactapp-boilerplate",
+  "version": "1.0.0",
+  "description": "ReactJs starter kit with gulp + webpack + babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "starter",
+    "kit",
+    "boilerplate"
+  ],
+  "author": "vinicius weiss cobos",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.3",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.15.1",
+    "eslint-loader": "^2.1.2",
+    "file-loader": "^3.0.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "image-webpack-loader": "^4.6.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
